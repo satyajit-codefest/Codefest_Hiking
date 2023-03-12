@@ -1,0 +1,188 @@
+
+html{
+	scroll-behavior: smooth;
+}
+*{
+    font-family: "Courier New",monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;  border: none;
+}
+body{
+	margin: 5px;
+}
+
+.bg-1{
+	height: 800px;
+	background-image: url('HikingPic2.jpg');
+	
+	-webkit-mask-image: linear-gradient(0deg,  transparent,rgb(255, 255, 255) 40%);
+	mask-image: linear-gradient(0deg,  transparent,rgb(255, 255, 255));
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: absolute;
+	opacity: 1;
+
+	
+
+}
+.navbar{
+            background: black;
+              opacity: 1;
+            
+            z-index: 9999;
+          }
+
+ .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+        } 
+.navbar ul{
+	overflow: auto;
+}       
+
+ .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: 0.5s ease;
+            font-weight: bold;
+        }
+ .search{
+            float: right;
+            color: white;
+            padding: 12px ;
+            margin-left: 450px;
+        }
+
+ .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 3px;
+            width: 205px;
+        }
+  .navbar li a:hover{
+            color: red;
+            font-size: 1.5rem;
+  text-decoration: underline;
+        }
+ .description
+{
+	text-align: justify;
+	position: relative;
+	color: rgb(66, 56, 56);
+	height: 400px;
+	width: 530px;
+	font-size: 18px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding: 14px;
+	top: 130px;
+	left: 60px;
+}  
+ .description p::first-letter
+{
+	font-size: xx-large;
+}  
+.description h1{
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center ;
+}  
+.bg-2{
+	height: 200px;
+	width: 100%;
+	background-image: linear-gradient(to bottom,white,#F0F8FF);
+	
+}
+
+.bg-3{
+	height: 500px;
+	width: 100%;
+	background: #F0F8FF;
+	opacity: 1;
+
+}
+.bg-3text1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.bg-3div{
+	padding: 15px 15px;
+	float: left;
+	margin: 50px 400px;
+	display: block;
+	border-radius: 16px;
+	
+	width: 40%;
+	background: black;
+}
+.bg-3text2{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.bg-4{
+	height: 850px;
+	width: 100%;
+	
+	background-image: url('HikingPic3.jpeg');
+	-webkit-mask-image: linear-gradient(180deg,  transparent,rgb(255, 255, 255) 10%);
+	mask-image: linear-gradient(180deg,  transparent,rgb(255, 255, 255));
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+
+.bg-4text{
+	height: 200px;
+	width: 100%;
+	font-size: 50px;
+	padding-top: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+.bg-4sub2{
+	height: 650px;
+	width: 31%;
+	float: left;
+	padding-left: 6px;
+
+}
+.bg-4text2{
+	text-decoration: underline;
+	text-align: center;
+	font-size: xx-large;
+}
+.bg-4text3{
+	padding-left: 40px;
+	padding-right: 35px;
+	padding-top: 35px;
+	text-align: justify;
+	font-size: medium;
+
+}
+.button {
+  
+  border: solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.button a{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+
+
+}
